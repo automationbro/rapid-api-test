@@ -1,0 +1,22 @@
+{
+  "name": "rapid-api-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automationbro/rapid-api-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/automationbro/rapid-api-test/issues"
+  },
+  "homepage": "https://github.com/automationbro/rapid-api-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
