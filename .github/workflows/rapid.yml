@@ -9,8 +9,8 @@ jobs:
         id: tstExec
         uses: RapidAPI/gh-api-testing-trigger@master
         with:
-          test: 'test_32343438-8208-4b3f-b977-7c5652666631'
+          test: 'test_e0dda9c1-bf94-4ecd-8f14-0161d443d5db'
           location: 'AWS-US-WEST-2'
-          environment: 'enviroment_e19eca0d-2347-4184-beeb-bf44b9543a8e'
+          environment: 'enviroment_9514d43b-5ff0-47f6-8413-6aa8f8871c7f'
       - name: Show Results
         run: echo "The test took ${{ steps.tstExec.outputs.time }}ms to run"; echo "The test result was ${{ steps.tstExec.outputs.succesful }}"; echo "View Report - {{ steps.tstExec.outputs.reportUrl }}"
